@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@responsive {
+  .border-t-0 {
+    border-top-width: 0 !important;
+  }
+
+  .border-r-0 {
+    border-right-width: 0 !important;
+  }
+
+  .border-b-0 {
+    border-bottom-width: 0 !important;
+  }
+
+  .border-l-0 {
+    border-left-width: 0 !important;
+  }
+}
